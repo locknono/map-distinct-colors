@@ -1,6 +1,6 @@
 // @flow
 
-type point = {
+export type point = {
   x: number,
   y: number,
   classNumber: number,
