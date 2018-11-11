@@ -1,4 +1,1 @@
-const clusters=function(points,classCount){
-    
-}
-
+const clusters = function(points, classCount) {};
