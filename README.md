@@ -14,9 +14,9 @@ This helps make a more visually differentiated clustring result.
 
 ## Motivation
 
-Assuming that there are  `n`  clusters with position infomation and  `n`  categorical colors,the color scheme has `n!` possibilities.
+Assuming that there are  `n`  clusters with position infomation and  `n`  categorical colors,the color scheme has  `n!`  possibilities.
 
-When `n` grows bigger and distance between clusters differs widely,some of the color schemes reduce the distinction between clusters.
+When  `n`  grows bigger and distance between clusters differs widely,some of the color schemes reduce the distinction between clusters.
 
 So what is the best color scheme which can reduce visual confusion and clearly differentiate clusters?
 

@@ -1,11 +1,14 @@
 import type point, { createPoint } from "./points";
 
+type baryCenter = [number, number];
+
 type cluster = {
   classNumber: number,
-  area: number
+  area: number,
+  baryCenter: baryCenter
 };
 
-function createCluster(points: Array<point>): Array<cluster> {
+export function createCluster(points: Array<point>): Array<cluster> {
   let clusterMap = new Map();
   for (let i = 0; i < points.length; i++) {
     let classNumber = points[i].classNumber;
